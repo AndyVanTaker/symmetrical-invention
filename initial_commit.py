@@ -1,2 +1,9 @@
-print('Hello, Anton!')
-print (98, 8, 37, 2, 16, 34, 4, 17, 1, 3)
+import random
+
+b = list()
+counter = 0
+while counter < 10:
+    a = random.randint(0, 100)
+    b.append(a)
+    counter += 1
+print(b)
